@@ -1,0 +1,46 @@
+#include <stdio.h>
+//defining size of aray globaly
+int size=4;
+
+//print array method:
+void print_array(int arr[]){
+    int i;
+    for(i=0;i<size;i++){
+        printf("%d\t",arr[i]);
+    }
+}
+
+//take input method
+void take_array_input(int arr[]){
+    int i;
+    for(i=0;i<size;i++){
+        scanf("%d",&arr[i]);
+    }
+}
+//swap function
+void swap(int arr[],int i,int j){
+    int temp=arr[i];
+    arr[i]=arr[j];
+    arr[j]=temp;
+    return;
+}
+
+void main(){
+    int i,j;
+    int arr[size];
+
+    //taking input from user an array first
+    printf("Enter Values of(Unsorted):\n");
+    take_array_input(arr);
+    //show unsorted array
+    printf("The unsorted array is:\n");
+    print_array(arr);
+
+    //Sorting Method:
+
+    //show Sorted array
+    printf("\nThe Sorted array is:\n");
+    print_array(arr);
+
+
+}

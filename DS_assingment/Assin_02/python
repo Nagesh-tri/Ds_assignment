@@ -1,0 +1,9 @@
+class student:
+def__int__(self,name):
+self name=name
+def method(self):
+    print('student name is',self name)
+    s1=student('nikhil')
+    s1.method1()
+    s2=method('leya')
+    s2.method1()

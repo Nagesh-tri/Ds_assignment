@@ -1,0 +1,6 @@
+wap to inplement tree 
+1 usign array
+2 using linkedlist
+
+
+B..
