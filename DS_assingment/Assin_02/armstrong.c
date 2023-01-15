@@ -1,17 +1,11 @@
 #include <stdio.h>
-// #include <math.h>
-//armstrong numbers are=
-// (num)=sum of digits with raise to power of (no of digits)
+#include <math.h>
+/*armstrong numbers are=
+ (num)=sum of digits with raise to power of (no of digits)
 
-//here we are not cencern about negative numbers...it considered that number enterd by user will be positive
+here we are not cencern about negative numbers...it considered that number enterd by user will be positive
+*/
 
-int power(int n,int p){
-    int pow=1;
-    for(int i=0;i<p;i++){
-        pow *=n;
-    }
-    return pow;
-}
 int digits(int num){
     int n=0;
     while(num>0){
@@ -23,7 +17,7 @@ int digits(int num){
 int arm_power(int num,int p){
     int sum=0;
     while(num!=0){
-        sum +=power(num%10,p);
+        sum +=pow(num%10,p);
         num=num/10;
     }
     return sum;

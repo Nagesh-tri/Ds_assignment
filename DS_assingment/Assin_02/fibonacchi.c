@@ -1,14 +1,4 @@
 #include <stdio.h>
-
-// int recFab(int x)
-// {
-//     if(x==0 || x==1) {
-//         return x;
-//     }
-//     return recFab(x-1) + recFab(x-2); 
-// }
-
-//WAP to print fibonacci series upto N terms
 void fib(int num){
     int i,term1=0,term2=1,next_term;
     printf("First term is: %d\n",term1);

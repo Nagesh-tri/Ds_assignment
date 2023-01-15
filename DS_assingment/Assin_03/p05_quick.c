@@ -19,6 +19,8 @@ avarage case: O(NlogN)
 merge sort O() is always nlogn yet quick sort is used coz it does not take any extra
 space i.e we need not to create new array.
 and also worst case occures very few times in practical sinareos.
+
+Quick sort is Stable algorithm.
 */
 
 int size=7;

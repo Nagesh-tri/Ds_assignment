@@ -10,6 +10,7 @@ struct Student{
     char branch[50];//branch name
 };
 
+
 void main(){
     struct Student students[N]; 
     printf("Enter %d student details\n",N);
